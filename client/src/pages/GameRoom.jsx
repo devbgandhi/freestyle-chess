@@ -3,7 +3,7 @@ import { Chessboard } from "react-chessboard";
 import { Chess } from "chess.js";
 
 export default function GameRoom() {
-  // Create a persistent chess game instance
+  // chess game instance
   const gameRef = useRef(new Chess());
 
   // React state holds the board position (FEN)
